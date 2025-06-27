@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Landing Page</title>
+</head>
+
+<body>
+    <header>
+
+        <div class="navbar">
+            <ul id="navbar">
+                <a href="index.html">Home</a>
+                <a href="#">Produtos</a>
+                <a href="#">Planos</a>
+                <a href="login.html">Login</a>
+                <i class="fas fa-dog"></i>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="sessao">
+            <div class="carousel-container">
+                <div class="carousel">
+                    <!-- Cada imagem do carousel é um slide com link -->
+                    <div class="carousel-slide">
+                        <img src="1.png" alt="Imagem 1" class="carousel-image">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="2.png" alt="Imagem 2" class="carousel-image">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="3.png" alt="Imagem 3" class="carousel-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+         <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+        <button class="next" onclick="moveSlide(1)">&#10095;</button>
+        <h3 id="h3">
+            Bem-vindo ao Recursos Caninos Hotel <br> O segundo lar do seu bichinho!
+        </h3>
+        <section class="sobre">
+            <h2>Sobre</h2>
+            <i>
+                <img src="iconedog.ico" alt="ícone" class="icon">
+            </i>
+            <p>
+                Sabemos que a vida anda corrida, e nem sempre é possível dar ao seu pet toda a atenção que ele merece.
+                Mas fique tranquilo: aqui no Recursos Caninos Hotel, seu melhor amigo encontra muito mais que um lugar
+                para passar o tempo — ele encontra um lar!
+            </p>
+        </section>
+    </main>
+    <footer>
+        <h4>&copy;Todos os direitos reservados.</h4>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
